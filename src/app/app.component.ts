@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'marvel-heroes';
+  title = 'MARVEL HEROES';
+  name = 'Kyle Greffin Baguio';
+  myhero = 'Iron Man: sakit sa ulo no?';
+  myname = 'Kyle: oo par :(';
 }
