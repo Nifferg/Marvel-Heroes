@@ -10,4 +10,11 @@ export class AppComponent {
   name = 'Kyle Greffin Baguio';
   myhero = 'Iron Man: sakit sa ulo no?';
   myname = 'Kyle: oo par :(';
+  currentItem = 'test123';
+
+  items = ['item1', 'item2', 'item3', 'item4'];
+
+  addItem(newItem: string){
+    this.items.push(newItem);
+  }
 }
